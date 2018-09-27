@@ -1,0 +1,30 @@
+#Laboratorio 05 - Metagenómica
+---
+Valeria Pérez Villalobos.
+#####1. ¿Cuántas secuencias fueron subidas?
+R: Fueron subidas 120.671 secuencias en la plataforma MG-RAST. 
+#####2. ¿Qué tipo de plataforma de secuenciamiento fue usada para producir estos datos?
+R: La plataforma de secuenciamiento que fue utilizada para producir estos datos fue:  MG-RAST, Processing Information and Downloads for metagenome overview GS025 Shotgun, Eastern Tropical pacific, Cocos Island, Fringing Reef, Dirty Rock, Costa Rica.
+#####3. ¿Cuántas secuencias pasaron el control de calidad? ¿A qué crees que se refiere esto?
+R: failed QC - 0 (0.00%)
+   unknown 0 (0.00%)
+   predicted feature - 120,671 (100.00%)
+
+Las secuencias que pasaron el control de calidad fueron 120.671, osea el 100%.
+Esto hace referencia a las secuencias revisadas y curadas, las cuales antes de ser subidas pasaron por un control de calidad estadistico. 
+
+#####4. ¿Cuántos otros metagenomas están disponibles para el bioma “marine habitat”?
+R: Hay disponible 7.065 resultados para el bioma “marine habitat”.
+#####5. ¿Cuántas reads fueron asignadas a eucariontes según MG-RAST?
+R: Fueron asignados 9.207 reads a eucariotas según MG-RAST (13.03%). 
+#####6. ¿Cuál es el filo (Phylum) más abundante en la muestra?
+R: El filo (Phylum) más abundante en la muestra es de la cyanobacteria con 22.956 resultados(37.03%).
+#####7. ¿A cuántas secuencias se les asignó una función de acuerdo a la base de datos KEGG con un e-value entre -10 y -20?
+R: A 7.960 secuencias se les asignó una función de acuerdo a la base de datos KEGG con un e-value entre -10 y -20.
+
+####8. ¿Por qué hay tan pocas secuencias con funciones asignadas según SwissProt? 
+R: Hay tan pocas secuencias con funciones asignadas según SwissProt porque SwissProt es una base de datos curada, y el evalue de sus datos asignados son muy altos por lo que la confiabilidad también lo es estadisticamente hablando. 
+#####9. ¿Cuántas secuencias mapearon en contra de Proteobacteria?
+R: Se mapearon 24.194 secuencias en contra de Proteobacteria.
+#####10. ¿Cuántas secuencias de Salmonella (Proteobacteria; Gammaproteobacteria; Enterobacteriales; Enterobacteriaceae) fueron identificadas? (Pista: level - genus)
+R: Fueron identificadas 72 secuencias del género Salmonella.
